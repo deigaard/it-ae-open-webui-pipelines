@@ -12,6 +12,9 @@ from typing import List, Union, Generator, Iterator
 from schemas import OpenAIChatMessage
 import os
 
+import nltk
+nltk.download('wordnet')
+
 from pydantic import BaseModel
 
 
